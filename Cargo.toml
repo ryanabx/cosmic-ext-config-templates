@@ -1,0 +1,14 @@
+[package]
+name = "cosmic-ext-templates"
+description = "Templates for the COSMIC Desktop"
+license = "GPL-3.0-only"
+repository = "https://github.com/ryanabx/cosmic-ext-templates"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.20", features = ["derive"] }
+ron = "0.8.1"
+serde = { version = "1.0.213", features = ["derive"] }
+
+
