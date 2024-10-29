@@ -16,3 +16,7 @@ pub struct Override {
 pub fn load_template(path: PathBuf) {
     
 }
+
+pub fn generate_template() {
+    
+}
