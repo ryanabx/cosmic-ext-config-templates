@@ -31,3 +31,7 @@ cosmic-ext-config-templates load-file ./my_panel.ron
 ```shell
 cosmic-ext-config-templates load-template ubuntu-panel
 ```
+
+## Contributing
+
+All contributions are welcome, whether it be adding new base templates or anything else you might think of! This project is licensed under the [GPL-3.0](LICENSE) license!
