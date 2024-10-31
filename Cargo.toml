@@ -22,6 +22,8 @@ env_logger = "0.11.5"
 
 [dependencies.cosmic-panel-config]
 git = "https://github.com/pop-os/cosmic-panel"
+branch = "master"
 
 [dependencies.cosmic-config]
 git = "https://github.com/pop-os/libcosmic.git"
+branch = "master"
