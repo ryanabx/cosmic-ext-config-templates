@@ -1,0 +1,50 @@
+Panel((
+    panel_config: (
+        config_list: [
+            (
+                name: "Panel",
+                anchor: Bottom,
+                anchor_gap: false,
+                layer: Top,
+                keyboard_interactivity: OnDemand,
+                size: S,
+                output: All,
+                background: ThemeDefault,
+                plugins_wings: Some(([
+                    "com.system76.CosmicAppletPower",
+                ], [
+                    "com.system76.CosmicAppletNetwork",
+                    "com.system76.CosmicAppletAudio",
+                    "com.system76.CosmicAppletBattery",
+                    "com.system76.CosmicAppletTime",
+                    "com.system76.CosmicAppletNotifications",
+                ])),
+                plugins_center: Some([
+                    "com.system76.CosmicPanelAppButton",
+                    "com.system76.CosmicPanelLauncherButton",
+                    "com.system76.CosmicAppList",
+                ]),
+                expand_to_edges: true,
+                padding: 4,
+                spacing: 4,
+                border_radius: 0,
+                exclusive_zone: true,
+                autohide: None,
+                margin: 0,
+                opacity: 0.91,
+            ),
+        ],
+    ),
+    panel_config_version: 1,
+    panel_button_config: (
+        configs: {
+            "Dock": (
+                force_presentation: Some(Icon),
+            ),
+            "Panel": (
+                force_presentation: Some(Icon),
+            ),
+        },
+    ),
+    panel_button_config_version: 1,
+))
