@@ -26,7 +26,7 @@ Panel((
                     "com.system76.CosmicPanelLauncherButton",
                     "com.system76.CosmicAppList",
                 ]),
-                size_wings: Some((None, Some(XS))),
+                size_wings: Some((Some(XS), Some(XS))),
                 size_center: None,
                 expand_to_edges: true,
                 padding: 4,
