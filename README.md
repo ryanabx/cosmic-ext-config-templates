@@ -5,7 +5,7 @@ This program will allow you to create template files that can apply COSMIC confi
 ## Install
 
 ```shell
-cargo install cosmic-ext-config-templates
+cargo install --git https://github.com/ryanabx/cosmic-ext-config-templates
 ```
 
 ## Usage
@@ -17,10 +17,10 @@ cosmic-ext-config-templates --help
 ### Example 1 (Generate a panel template)
 
 ```shell
-cosmic-ext-config-templates generate ./my_panel.ron com.system76.CosmicPanel com.system76.CosmicPanel.Dock com.system76.CosmicPanel.Panel com.system76.CosmicPanelButton
+cosmic-ext-config-templates generate -o ./my_panel.ron panel
 ```
 
-### Example 2 (Load a panel template from a file)
+### Example 2 (Load a template from a file)
 
 ```shell
 cosmic-ext-config-templates load-file ./my_panel.ron
