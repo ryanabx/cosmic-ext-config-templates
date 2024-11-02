@@ -7,6 +7,7 @@ use cosmic_ext_config_templates::{generic::GenericSchema, panel::PanelSchema, Sc
 const UBUNTU_PANEL: &str = include_str!("../../base_templates/ubuntu_panel.ron");
 const DEFAULT_PANEL: &str = include_str!("../../base_templates/default_panel.ron");
 const WINDOWS_PANEL: &str = include_str!("../../base_templates/windows_panel.ron");
+const WINDOWS10_PANEL: &str = include_str!("../../base_templates/windows10_panel.ron");
 //
 
 #[derive(Clone, Debug, ValueEnum)]
@@ -14,6 +15,7 @@ pub enum BaseTemplates {
     UbuntuPanel,
     DefaultPanel,
     WindowsPanel,
+    Windows10Panel,
 }
 
 impl BaseTemplates {
@@ -22,6 +24,7 @@ impl BaseTemplates {
             BaseTemplates::UbuntuPanel => UBUNTU_PANEL,
             BaseTemplates::DefaultPanel => DEFAULT_PANEL,
             BaseTemplates::WindowsPanel => WINDOWS_PANEL,
+            BaseTemplates::Windows10Panel => WINDOWS10_PANEL,
         }
     }
 }
