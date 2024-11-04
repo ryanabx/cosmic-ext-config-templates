@@ -4,7 +4,7 @@ description = "Simple config template program for the COSMIC Desktop"
 license = "MPL-2.0"
 authors = [ "Ryan Brue <ryanbrue.dev@gmail.com>" ]
 repository = "https://github.com/ryanabx/cosmic-ext-config-templates"
-version = "2.0.0"
+version = "2.0.1"
 edition = "2021"
 
 [[bin]]
@@ -12,18 +12,16 @@ name = "cosmic-ext-config-templates"
 path = "src/bin/main.rs"
 
 [dependencies]
-clap = { version = "4.5.20", features = ["derive"] }
 ron = "0.8.1"
 serde = { version = "1.0.213", features = ["derive"] }
 walkdir = "2.5.0"
 anyhow = "1.0.91"
 log = "0.4.22"
+clap = { version = "4.5.20", features = ["derive"] }
 env_logger = "0.11.5"
 
 [dependencies.cosmic-panel-config]
 git = "https://github.com/pop-os/cosmic-panel"
-branch = "master"
 
 [dependencies.cosmic-config]
 git = "https://github.com/pop-os/libcosmic.git"
-branch = "master"
