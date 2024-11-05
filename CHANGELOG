@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.2]
+
+### Changed
+
+- Add patch for cosmic-config, fixes issues with libcosmic for downstream users of the crate.
+- See these resources:
+  - https://github.com/rust-lang/cargo/issues/5478
+  - https://github.com/rust-lang/cargo/issues/7497#issuecomment-555834779
+
 ## [2.0.1]
 
 ### Changed
