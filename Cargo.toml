@@ -25,9 +25,3 @@ git = "https://github.com/pop-os/cosmic-panel"
 
 [dependencies.cosmic-config]
 git = "https://github.com/pop-os/libcosmic"
-
-[patch."https://github.com/pop-os/cosmic-panel.git"]
-cpfg = { git = 'https://github.com/pop-os//cosmic-panel.git', branch = 'master', package = 'cosmic-panel-config' }
-
-[patch."https://github.com/pop-os/libcosmic.git"]
-ccfg = { git = 'https://github.com/pop-os//libcosmic.git', branch = 'master', package = 'cosmic-config' }
